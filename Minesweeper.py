@@ -149,7 +149,7 @@ class Minesweeper:
         global root
         root.destroy()
     def update_flags(self):
-        self.label3.config(text="Flags: "+str(self.flags))
+        self.label3.config(text="Флажки: "+str(self.flags))
 def main():
     global root
     root = Tk()
